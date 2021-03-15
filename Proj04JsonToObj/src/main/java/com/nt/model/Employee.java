@@ -23,6 +23,11 @@ public class Employee {
 	public void setUsal(double usal) {
 		this.usal = usal;
 	}
+	@Override
+	public String toString() {
+		return "Employee [uid=" + uid + ", uname=" + uname + ", usal=" + usal + "]";
+	}
+	
 	
 	
 
